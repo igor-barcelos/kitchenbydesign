@@ -1,0 +1,179 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.products_div{
+  display: table-cell;
+  width: 100%;
+  direction: row;
+  vertical-align: middle;
+}
+
+
+.products_content{
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.ImageContainer{
+  position: relative;
+  width: 100%;
+  background-color: black;
+}
+
+.HomeImage{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 60px;
+
+}
+
+.ProductImage{
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.Products{
+  text-align: left;
+  margin-left: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.ProductsInformation
+{
+  text-align: left;
+  margin-left: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  line-height: 145%;
+}
+
+.ImageKitchen{
+  height: 500px;
+  width: 100%;
+  max-width: 100%;
+  opacity: 0.5;
+  
+}
+
+.whatsapp_div{
+  position: absolute;
+  z-index: 2;
+  color: white;
+  top: 50%;
+  left: 60%;
+
+}
+
+.whatsapp_div .WhatsappIcon_div {
+	display: inline-block;
+  vertical-align:middle;
+  justify-content: left;
+
+}
+
+.whatsapp_div .Whatsapptext_div {
+	display: inline-block;
+	margin-left: 10px;
+  font-size: 30px;
+  vertical-align:middle;
+  margin-left: 0.8em;
+}
+
+.mail_div{
+  position: absolute;
+  z-index: 2;
+  color: white;
+  top: 65%;
+  left: 60%;
+
+}
+
+.mail_div .MailIcon_div {
+	display: inline-block;
+  vertical-align:middle;
+  justify-content: left;
+  
+}
+
+.mail_div .Mailtext_div {
+	display: inline-block;
+	margin-left: 10px;
+  font-size: 30px;
+  vertical-align:middle;
+  margin-left: 0.8em;
+}
+
+.contactUs_div{
+  position: absolute;
+  z-index: 2;
+  color: white;
+  top: 40%;
+  left: 5%;
+  justify-content: center;
+  align-items: center;
+  width: 50%;;
+}
+
+.contactUs_div .h1 {
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  line-height: 145%;
+}
+
+.contactInformation {
+  text-align: left;
+  margin-left: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  line-height: 145%;
+  
+}
+
+
+
+.icon-background {
+  color: #c0ffc0;
+}
+
+
+.icon-a {
+  color:green;
+  font-size: 3.5em;
+}
+.icon-b {
+  color: white;
+  font-size: 2em;
+}
+
+.icon-c {
+  color: red;
+  font-size: 3.5em;
+}
+
+.icon-d {
+margin-left: 0.25em;
+}
+
+.callUs_button{
+  
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  border-radius: 5rem;
+  width: 450px;
+  height: 50px;
+  transition: all 0.3s;
+}
+
+
+.callUs_button:hover{
+  background-color:red;
+  color:black;
+  transform: scale(1.1)
+}

@@ -1,0 +1,112 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: black;
+}
+
+.navbar a{
+    color: white;
+
+}
+
+.navbar .logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+   
+.navbar .nav-links ul {
+ display: flex;
+ list-style-type: none;
+ margin-right: 300px;
+
+}
+
+.navbar .nav-links ul li{
+ padding-left: 80px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+
+}
+
+.navbar .nav-links ul li a {
+color: white;
+font-weight: 600;
+font-family: Arial;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+text-decoration:none;
+    
+}
+
+.navbar .nav-links ul li a:hover {
+color: orange 
+}
+
+.navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+    top:35px;
+    right: 50px;
+    width: 35px;    
+}
+
+.logo-img{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 250px;
+    height: 60px;
+    margin-left: 0.5em;
+    
+}
+.button
+{ 
+    position: absolute;
+    top : 25px;
+    right: 20px;
+    overflow: hidden; 
+    font-family: 'Arial';
+    font-size: 20px;
+    color: black;
+    background: orange;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    transition: all 0.3s;
+    border-radius: 4rem;
+    font-weight:bold;
+}
+
+.button:after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+.button:hover{
+    background-color:orange;
+    color:black;
+    transform: scale(1.1)
+  }
+@media screen and (max-width :900px) {
+
+.navbar{
+    padding: 0;
+}
+.nav-links{
+    position: absolute;
+    
+}
+
+.navbar .menu-hamburger{
+    display: block;
+}
+    
+}
+
