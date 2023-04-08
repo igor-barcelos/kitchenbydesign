@@ -26,3 +26,19 @@
     max-width: 100%;
     opacity: 0.5;
   }
+
+  @media screen and (max-width :900px) {
+    .contactUs_button{
+       display: none;
+    }
+  
+    .aboutUs-title h1{
+      font-size: 21px;
+    }
+  
+    .aboutUs-content p{
+      font-size: 16px;
+    }
+    
+  }
+    

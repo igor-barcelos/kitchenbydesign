@@ -81,5 +81,17 @@
    .products-container{
       display: block;
    }    
+
+   .product-wrapper h1{
+      font-size: 21px;
+    }
+    
+
+   .product-wrapper p{
+      font-size: 15px;
+    }
+    
+
+
 }
    

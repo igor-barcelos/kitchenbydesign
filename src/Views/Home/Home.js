@@ -1,5 +1,6 @@
 import './Home.css'
 import ImageSlider from '../../Components/ImageSlider/ImageSlider';
+import WhatsAppButton from '../../Components/WhatsAppButton/WhatsAppButton';
 import Products from './Products'
 import AboutUs from './AboutUs';
 import BottomBar from './BottomBar';
@@ -10,6 +11,7 @@ const Home = () => {
                 <AboutUs/> 
                 <Products/>
                 <BottomBar/>
+                <WhatsAppButton/> 
             {/* <div class ="products_div">
                 <div class = "products_content">  
                 <h1 class="Products"> Our Products </h1>
