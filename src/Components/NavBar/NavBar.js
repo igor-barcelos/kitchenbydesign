@@ -46,13 +46,13 @@ const NavBar = () => {
           </div >
           <div class ="nav-icons-container"> 
             <div class="nav-icons"> 
-              <FontAwesomeIcon icon= {faFacebook} color="white" size='2x' className="socialMedia-icon"/>
+              <FontAwesomeIcon icon= {faFacebook} color="white"  className="socialMedia-icon"/>
             </div>
             <div class="nav-icons"> 
-              <FontAwesomeIcon icon= {faInstagram} color="white"  size='2x' className="socialMedia-icon" />
+              <FontAwesomeIcon icon= {faInstagram} color="white"  className="socialMedia-icon" />
             </div> 
             <div class="nav-icons"> 
-              <FontAwesomeIcon icon= {faWhatsapp} color="white"  size='2x' className="socialMedia-icon"/>
+              <FontAwesomeIcon icon= {faWhatsapp} color="white"   className="socialMedia-icon"/>
             </div> 
           </div>
         {/* <a href = "#"><button class ="button"> (601) 620 - 4077 </button></a>   */}
