@@ -9,7 +9,7 @@ const BottomBar = () => {
     return(
     <div class = "bottomBarContainer">
         <div class = "itemsContainer"> 
-        <FontAwesomeIcon icon={faClock} color='white' size='2x' style = {{marginTop:'10px'}}/>  
+        <FontAwesomeIcon icon={faLocationDot} color='white' size='2x' style = {{marginTop:'10px'}}/>  
             <div> 
                 <p class="informationTitle"> Location </p>
             </div>
@@ -22,7 +22,7 @@ const BottomBar = () => {
         </div>
 
         <div class = "itemsContainer">
-            <FontAwesomeIcon icon={faLocationDot} color='white' size='2x' style = {{marginTop:'10px'}}/>  
+            <FontAwesomeIcon icon={faClock} color='white' size='2x' style = {{marginTop:'10px'}}/>  
             <div> 
                 <p class="informationTitle"> Hours </p>
             </div>
