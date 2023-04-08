@@ -7,7 +7,6 @@
 }
 .products-container{
    display : flex;
-   direction: row;
    position: relative;
    justify-content: space-around;
    width: 100%;
@@ -24,10 +23,11 @@
 
 
 .product-container{
+   display: flex;
     position: relative;
     flex-direction: column;
-    justify-content:space-between;;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     
   }
 
@@ -51,8 +51,6 @@
  .product-name{
     position: absolute;
     bottom: 0;
-    left: 30%;
-
  }
 
  .product-name p{
@@ -62,7 +60,26 @@
     background-color: black;
     font-weight: bold;
     margin-bottom: 10px;
+    border-radius: 30px; 
+    width: fit-content;
+    padding: 5px;
+    transition: all 0.3s;
+ }
+
+ .product-name a{
+   text-decoration: none;
+}
+
+ .product-name a :hover{
+   background-color:orange;
+   color:black;
+   transform: scale(1.1)
  }
 
 
-
+ @media screen and (max-width :900px) {
+   .products-container{
+      display: block;
+   }    
+}
+   

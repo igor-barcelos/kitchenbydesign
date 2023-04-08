@@ -40,18 +40,19 @@ const NavBar = () => {
                 <li > <a href='#'> Home </a> </li> 
                 <li > <a href='#'> About </a> </li>
                 <li > <a href='#'> Products </a> </li>
+                <li > <a href='#'> Contact </a> </li>
                 <li > <a href='#'> Gallery </a> </li>
           </ul>
           </div >
           <div class ="nav-icons-container"> 
             <div class="nav-icons"> 
-              <FontAwesomeIcon icon= {faFacebook} color="white" size='2x' style={{marginRight:'20px', backgroundColor :'black', borderRadius:'20%', padding:'10px'}}/>
+              <FontAwesomeIcon icon= {faFacebook} color="white" size='2x' className="socialMedia-icon"/>
             </div>
             <div class="nav-icons"> 
-              <FontAwesomeIcon icon= {faInstagram} color="white"  size='2x' style={{marginRight:'20px', backgroundColor :'black', borderRadius:'20%', padding:'10px'}} />
+              <FontAwesomeIcon icon= {faInstagram} color="white"  size='2x' className="socialMedia-icon" />
             </div> 
             <div class="nav-icons"> 
-              <FontAwesomeIcon icon= {faWhatsapp} color="white"  size='2x' style={{marginRight:'20px', backgroundColor :'black', borderRadius:'20%', padding:'10px'}}/>
+              <FontAwesomeIcon icon= {faWhatsapp} color="white"  size='2x' className="socialMedia-icon"/>
             </div> 
           </div>
         {/* <a href = "#"><button class ="button"> (601) 620 - 4077 </button></a>   */}

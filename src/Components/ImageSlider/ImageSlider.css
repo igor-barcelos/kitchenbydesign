@@ -16,23 +16,48 @@ margin-top: 100px;
 
 .slider img{
   width: 100%;
+  height: auto;
   opacity: 0.5;
 }
 
 .slider-text {
   position: absolute;
   top: 35%; 
-  left: 20%
+  left: 10%
 
 }
 .slider-text h2{
 color: white;
 font-family: 'Courier New', Courier, monospace;
-font-size: 48px;
+font-size: 2vw;
 }
 
 .slider-text p{
   color: white;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
+  font-size: 2vw;
 }
+
+.contactUs_button{
+  
+  background-color: black;
+  color: white;
+  font-size: 2vw;
+  border-radius: 5rem;
+  width: 350px;
+  height: 50px;
+  transition: all 0.3s;
+}
+
+.contactUs_button:hover{
+  background-color:orange;
+  color:black;
+  transform: scale(1.1)
+}
+
+@media screen and (max-width :900px) {
+  .contactUs_button{
+     display: none;
+  }    
+}
+  

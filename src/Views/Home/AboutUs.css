@@ -9,10 +9,15 @@
     font-weight: lighter;
 }
 
+
+
 .aboutUs-content p{
     font-size: 20px;  
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
   .aboutUs-container img{

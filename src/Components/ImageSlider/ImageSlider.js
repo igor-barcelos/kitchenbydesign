@@ -22,7 +22,7 @@ const ImageSlider = () => {
           <h2>
             (601) 620 - 4077
           </h2>
-          <button> CONTACT US </button>   
+          <button class="contactUs_button"> CONTACT US </button>   
         </div>
         <div class ="slider-nar"> 
           <a href ="slide-1"> </a> 

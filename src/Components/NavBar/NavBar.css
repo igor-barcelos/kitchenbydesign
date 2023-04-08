@@ -13,7 +13,7 @@
 
 .nav-links{
     position: absolute;
-    left: 35%;}
+    left: 30%;}
 
 .navbar a{
     color: black;
@@ -29,8 +29,8 @@
 .navbar .nav-links ul {
  display: flex;
  list-style-type: none;
- width: 100%;;
- justify-content: space-between;
+ width: 100%;
+ margin-left: 0px;
 }
 
 .navbar .nav-links ul li{
@@ -102,7 +102,7 @@ color: orange
     transform: scale(1.1)
   }
 
-  .nav-icons-container{
+.nav-icons-container{
     display: flex;
     direction: row;
     position: absolute;
@@ -110,18 +110,34 @@ color: orange
     justify-content: space-between;
 
   }
+
+.socialMedia-icon{
+    margin-right: 20px;
+    background-color: black;
+    border-radius: 20%;
+    padding: 10px;
+    transform: all 0.3s;
+  }
+
 @media screen and (max-width :900px) {
 
 .navbar{
     padding: 0;
 }
 .nav-links{
-    position: absolute;
+    display: none;
+    
+}
+.nav-icons{
+    display: none;
     
 }
 
 .navbar .menu-hamburger{
     display: block;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
 }
     
 }

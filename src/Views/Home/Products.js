@@ -16,25 +16,25 @@ const Products = () => {
                 <div class = 'product-container'>
                     <img src={image_1} /> 
                     <div class = "product-name"> 
-                        <p> GRANITE</p>
+                        <a href='#'> <p> GRANITE</p> </a>
                     </div>
                 </div >
                 <div class = 'product-container'>
                     <img src={image_2} /> 
                     <div class = "product-name"> 
-                        <p> MARBLE</p>
+                        <a href='#'> <p> MARBLE</p> </a>
                     </div>
                 </div > 
                 <div class = 'product-container'>
                     <img src={image_3} /> 
                     <div class = "product-name"> 
-                        <p> GRANITE</p>
+                    <a href='#'> <p> GRANITE</p> </a>
                     </div>
                 </div> 
                 <div class = 'product-container'>
                     <img src={image_4} /> 
                     <div class = "product-name"> 
-                        <p> QUARTZITE</p>
+                    <a href='#'> <p> QUARTZITE</p></a>
                     </div>
                 </div>       
             </div>
