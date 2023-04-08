@@ -1,0 +1,23 @@
+.aboutUs-container{
+    position: relative;
+    width: 100%;
+  }
+
+.aboutUs-title h1{
+    font-size: 50px;  
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: lighter;
+}
+
+.aboutUs-content p{
+    font-size: 20px;  
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+  .aboutUs-container img{
+    height: 500px;
+    width: 100%;
+    max-width: 100%;
+    opacity: 0.5;
+  }

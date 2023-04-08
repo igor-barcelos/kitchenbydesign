@@ -1,0 +1,34 @@
+.bottomBarContainer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .itemsContainer{
+    flex-direction: column;
+    justify-content:space-between;;
+    text-align: center;
+    
+  }
+
+
+  .informationTitle {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px; 
+    font-weight: bold;
+    color: white;
+  }
+
+  .informationContent {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+  }
+
+ 
+
+ 

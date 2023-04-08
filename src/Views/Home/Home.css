@@ -1,7 +1,15 @@
 
 .container{
-  display: flex;
+  display:flex;
   flex-direction: column;
+}
+
+
+.items{
+  display: flex;
+  justify-content: space-between;
+  direction: column;
+  
 }
 
 .products_div{

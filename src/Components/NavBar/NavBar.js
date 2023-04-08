@@ -1,21 +1,12 @@
 import React, { useState, useEffect} from 'react';
-import { 
-    Toolbar,
-    IconButton,
-    Typography,
-    Button,
-    Box,
-    AppBar,
-    Grid,
-    Tabs,
-    Tab} from '@mui/material';
-
 import { Link } from "react-router-dom";
 import './NavBar.css';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import HamburgerIcon from '../../Images/Icons/menu-btn.png';
-import logo from  '../../Images/Logo/PNG/Logo Horizontal/3.png';
+import logo from  '../../Images/Logo/PNG/Logo Horizontal/2.png';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 const NavBar = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -46,13 +37,24 @@ const NavBar = () => {
         <img src={logo}  class= "logo-img"/>  
         <div class="nav-links" > 
           <ul>
-            <li class="active"> <a href='#'> Home </a> </li>
-            <li> <a href='#'> About </a> </li>
-            <li> <a href='#'> Products </a> </li>
-            <li> <a href='#'> Gallery </a> </li>
+                <li > <a href='#'> Home </a> </li> 
+                <li > <a href='#'> About </a> </li>
+                <li > <a href='#'> Products </a> </li>
+                <li > <a href='#'> Gallery </a> </li>
           </ul>
           </div >
-        <a href = "#"><button class ="button"> Contact Us</button></a>  
+          <div class ="nav-icons-container"> 
+            <div class="nav-icons"> 
+              <FontAwesomeIcon icon= {faFacebook} color="white" size='2x' style={{marginRight:'20px', backgroundColor :'black', borderRadius:'20%', padding:'10px'}}/>
+            </div>
+            <div class="nav-icons"> 
+              <FontAwesomeIcon icon= {faInstagram} color="white"  size='2x' style={{marginRight:'20px', backgroundColor :'black', borderRadius:'20%', padding:'10px'}} />
+            </div> 
+            <div class="nav-icons"> 
+              <FontAwesomeIcon icon= {faWhatsapp} color="white"  size='2x' style={{marginRight:'20px', backgroundColor :'black', borderRadius:'20%', padding:'10px'}}/>
+            </div> 
+          </div>
+        {/* <a href = "#"><button class ="button"> (601) 620 - 4077 </button></a>   */}
         <img src={HamburgerIcon}  class= "menu-hamburger"/> 
       </nav>
 

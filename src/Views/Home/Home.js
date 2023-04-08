@@ -1,23 +1,16 @@
-import HomeImage from '../../Images/Logo/Apresentação/88.jpg';
-
-import { 
-    Typography,
-    Grid,
-    Stack} from '@mui/material';
-
 import './Home.css'
-
-import ProjectImage from  '../../Images/roam-in-color-RryFk4n-vOs-unsplash.jpg';
-import ProductImage from '../../Images/sidekix-media--Vfa35ueUCo-unsplash.jpg';
-
-
+import ImageSlider from '../../Components/ImageSlider/ImageSlider';
+import Products from './Products'
+import AboutUs from './AboutUs';
+import BottomBar from './BottomBar';
 const Home = () => {
     return(
         <div class = "container" >
-            <div> 
-                <img   className="HomeImage" src={HomeImage} alt="React Image"/>
-            </div> 
-            <div class ="products_div">
+                <ImageSlider/> 
+                <AboutUs/> 
+                <Products/>
+                <BottomBar/>
+            {/* <div class ="products_div">
                 <div class = "products_content">  
                 <h1 class="Products"> Our Products </h1>
                     <p class ="ProductsInformation"> 
@@ -63,7 +56,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* <BottomBar/>  */}
+            <BottomBar/>  */}
         </div>
     );
 };

@@ -1,0 +1,38 @@
+.slider-container{
+  display: flex;
+  position: relative;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.slider-wrapper{
+position: relative;
+margin-top: 100px;
+}
+
+.slider img{
+  width: 100%;
+  opacity: 0.5;
+}
+
+.slider-text {
+  position: absolute;
+  top: 35%; 
+  left: 20%
+
+}
+.slider-text h2{
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-size: 48px;
+}
+
+.slider-text p{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
