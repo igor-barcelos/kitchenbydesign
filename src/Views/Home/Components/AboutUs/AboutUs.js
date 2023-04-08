@@ -1,5 +1,4 @@
 
-import AboutUsImage from  '../../Images/Components/AboutUs/sidekix-media-I_QC1JICzA0-unsplash.jpg';
 import './AboutUs.css'
 const AboutUs  = () => {
     return(

@@ -1,9 +1,9 @@
 import './Home.css'
 import ImageSlider from '../../Components/ImageSlider/ImageSlider';
 import WhatsAppButton from '../../Components/WhatsAppButton/WhatsAppButton';
-import Products from './Products'
-import AboutUs from './AboutUs';
-import BottomBar from './BottomBar';
+import Products from './Components/Products/Products'
+import AboutUs from './Components/AboutUs/AboutUs';
+import BottomBar from './Components/BottomBar/BottomBar';
 const Home = () => {
     return(
         <div class = "container" >
