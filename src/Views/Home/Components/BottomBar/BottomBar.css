@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Made Tommy';
+  src: url('../../../../Fonts/made_tommy/MADE TOMMY Regular_PERSONAL USE.otf') format('otf');
+       /* url('./Fonts/made-tommy-regular-webfont.woff') format('woff'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .bottomBarContainer{
     background-color: black;
     display: flex;
@@ -16,8 +25,8 @@
 
   .informationTitle {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px; 
+    font-family: 'Made Tommy';
+    font-size: 16px; 
     font-weight: bold;
     color: white;
   }
@@ -25,8 +34,8 @@
   .informationContent {
     color: white;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-family: 'Made Tommy';
+    font-size: 14px;
   }
 
  

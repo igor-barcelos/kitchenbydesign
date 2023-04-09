@@ -1,23 +1,31 @@
+@font-face {
+  font-family: 'Made Tommy';
+  src: url('../../../../Fonts/made_tommy/MADE TOMMY Regular_PERSONAL USE.otf') format('otf');
+       /* url('./Fonts/made-tommy-regular-webfont.woff') format('woff'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
 .aboutUs-container{
     position: relative;
     width: 100%;
   }
 
 .aboutUs-title h1{
-    font-size: 50px;  
-    font-family: 'Courier New', Courier, monospace; 
+    font-size: 30px;  
+    font-family: 'Made Tommy';
     font-weight: lighter;
 }
 
 
 
 .aboutUs-content p{
-    font-size: 20px;  
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;  
+    font-family: 'Made Tommy';
     font-weight: lighter;
     text-align: justify;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
   .aboutUs-container img{

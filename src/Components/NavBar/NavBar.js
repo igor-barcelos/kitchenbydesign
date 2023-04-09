@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import './NavBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import HamburgerIcon from '../../Images/Icons/menu-btn.png';
-import logo from  '../../Images/Logo/PNG/Logo Horizontal/2.png';
+import logo from  '../../Images/Logo/PNG/Logo Horizontal/3.png';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { FaBars} from 'react-icons/fa'
 const NavBar = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -56,7 +57,8 @@ const NavBar = () => {
             </div> 
           </div>
         {/* <a href = "#"><button class ="button"> (601) 620 - 4077 </button></a>   */}
-        <img src={HamburgerIcon}  class= "menu-hamburger"/> 
+        {/* <img src={HamburgerIcon}  class= "menu-hamburger"/>  */}
+        <button class= "menu-hamburger">  <FaBars/> </button>
       </nav>
 
     //   <div> 

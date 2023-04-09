@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Made Tommy';
+  src: url('../../Fonts/made_tommy/MADE TOMMY Regular_PERSONAL USE.otf') format('otf');
+       /* url('./Fonts/made-tommy-regular-webfont.woff') format('woff'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
 .slider-container{
   display: flex;
   position: relative;
@@ -11,7 +19,7 @@
 
 .slider-wrapper{
 position: relative;
-margin-top: 100px;
+margin-top: 50px;
 
 }
 
@@ -31,24 +39,24 @@ margin-top: 100px;
 }
 .slider-text h2{
 color: white;
-font-family: 'Courier New', Courier, monospace;
-font-size: 35px;
+font-family: 'Made Tommy';
+font-size: 18x;
 }
 
 .slider-text p{
   color: white;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 35px;
+  font-family: 'Made Tommy';
+  font-size: 16px;
 }
 
 .contactUs_button{
   
   background-color: black;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 35px;
+  font-family: 'Made Tommy';
+  font-size: 18px;
   border-radius: 5rem;
-  width: 250px;
+  width: 150px;
   height: 50px;
   transition: all 0.3s;
 }

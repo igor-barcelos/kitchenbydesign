@@ -1,13 +1,22 @@
+@font-face {
+    font-family: 'Made Tommy';
+    src: url('../../Fonts/made_tommy/MADE TOMMY Regular_PERSONAL USE.otf') format('otf');
+         /* url('./Fonts/made-tommy-regular-webfont.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 .navbar{
     display: flex;
     position: fixed;
     justify-content: space-between;
     width: 100%;
-    height: 100px;
+    height: fit-content;
     top:0;
     box-sizing: border-box;
     align-items: center;
-    background-color: white;
+    background-color: black;
     z-index: 1;
 }
 
@@ -34,16 +43,15 @@
 }
 
 .navbar .nav-links ul li{
- font-size: 20px;
+ font-size: 16px;
  font-weight: lighter;
  margin-left: 30px;
-
 }
 
 .navbar .nav-links ul li a {
-color: black;
-font-weight: bold;
-font-family: 'Courier New', Courier, monospace;;
+color: white;
+font-weight: lighter;
+font-family: 'Made Tommy';
 transition: 0.4s ease-in-out;
 text-decoration:none;    
 }
@@ -55,7 +63,7 @@ color: orange
 .navbar .menu-hamburger{
     display: none;
     position: absolute;
-    top:35px;
+    top: 35px;
     right: 50px;
     width: 35px;    
 }
@@ -64,7 +72,7 @@ color: orange
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     width: 250px;
-    height: 60px;
+    height: 64px;
     margin-left: 0.5em;
     
 }
@@ -106,16 +114,16 @@ color: orange
     position: absolute;
     right: 0;
     justify-content: space-between;
-
   }
 
 .socialMedia-icon{
     margin-right: 20px;
-    background-color: black;
+    color: black;
+    background-color: white;
     border-radius: 20%;
-    padding: 10px;
+    padding: 5px;
     transform: all 0.3s;
-    font-size: 25px;
+    font-size: 18px;
   }
 
 @media screen and (max-width :900px) {
@@ -135,6 +143,7 @@ color: orange
 .navbar .menu-hamburger{
     display: block;
     position: absolute;
+    background-color: white;
     right: 0;
     margin-right: 20px;
 }
