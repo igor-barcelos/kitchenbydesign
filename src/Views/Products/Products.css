@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Made Tommy';
+    src: url('../../Fonts/made_tommy/MADE TOMMY Regular_PERSONAL USE.otf') format('otf');
+         /* url('./Fonts/made-tommy-regular-webfont.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .products-wrapper{
+    display: inline-block;
+    direction: column;
+    position: relative;
+    width: 100%;
+    max-height: fit-content;
+  }
+
+    
+  .productsView-container{
+    margin-top: 20px;
+  }
+
+  .productsView-container h1{
+    font-size: 30px;  
+    font-family: 'Made Tommy';
+    font-weight: lighter;
+  }
+
+  .productsView-container p{
+    font-size: 16px;  
+    font-family: 'Made Tommy';
+    font-weight: lighter;
+    text-align: justify;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .productsView-container li{
+    font-size: 16px;  
+    font-family: 'Made Tommy';
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .productsView-container ul{
+    list-style-type: none;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+.top-img-div{
+  position: relative;
+  margin-top: 50px;
+  background-color: black;
+
+}
+
+.top-img-div img{
+  width: 100%;
+  height: 600px;
+  opacity: 0.5;
+
+}
+
+.top-text-div {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  padding-top:15%;  
+  text-align:center;
+}
+
+.top-text-div  h2{
+  color: white;
+  font-family: 'Made Tommy';
+  font-size: 18x;
+}
+
+.top-text-div p{
+  color: white;
+  font-family: 'Made Tommy';
+  font-size: 16px;
+}

@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: 'Made Tommy';
+    src: url('../../../../Fonts/made_tommy/MADE TOMMY Regular_PERSONAL USE.otf') format('otf');
+         /* url('./Fonts/made-tommy-regular-webfont.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+.contact-wrapper{
+    display: flex;
+    direction: row;
+    margin-top: 80px;
+    height: fit-content;
+    background-color: black;
+}
+
+.contactInfo-container{
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactInfo-container h1{
+    font-family: 'Made Tommy';
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contactInfo-container a{
+    font-family: 'Made Tommy';
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contactInfo-container h2{
+    font-family: 'Made Tommy';
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contactInfo-container p{
+    font-family: 'Made Tommy';
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}

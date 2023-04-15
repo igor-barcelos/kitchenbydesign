@@ -1,7 +1,7 @@
 
 import image_1 from '../../Images/Components/ImageSlider/1.jpg';
 import image_2 from '../../Images/Components/ImageSlider/2.jpg';
-
+import { Link } from "react-router-dom";
 import './ImageSlider.css'
 
 const ImageSlider = () => {
@@ -22,7 +22,7 @@ const ImageSlider = () => {
           <h2>
             (601) 620 - 4077
           </h2>
-          <button class="contactUs_button"> CONTACT US </button>   
+          <button class="contactUs_button"> <Link to='/contact' style={{color:'white', textDecoration:'none'}}> CONTACT US</Link> </button>   
         </div>
         <div class ="slider-nar"> 
           <a href ="slide-1"> </a> 

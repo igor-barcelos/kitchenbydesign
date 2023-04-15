@@ -38,22 +38,23 @@ const NavBar = () => {
         <img src={logo}  class= "logo-img"/>  
         <div class="nav-links" > 
           <ul>
-                <li > <a href='#'> Home </a> </li> 
-                <li > <a href='#'> About </a> </li>
-                <li > <a href='#'> Products </a> </li>
-                <li > <a href='#'> Contact </a> </li>
-                <li > <a href='#'> Gallery </a> </li>
+                <li > <Link  to='/'> Home </Link > </li> 
+                <li > <Link  to='#'> About </Link > </li>
+                <li > <Link  to='/products'> Products </Link > </li>
+                <li > <Link  to='/contact'> Contact </Link > </li>
+                <li > <Link  to='#'> Gallery </Link > </li>
           </ul>
           </div >
           <div class ="nav-icons-container"> 
             <div class="nav-icons"> 
-              <FontAwesomeIcon icon= {faFacebook} color="white"  className="socialMedia-icon"/>
+              <a href = 'https://www.facebook.com/KitchenByDesignII/' target="_blank"> <FontAwesomeIcon icon= {faFacebook} color="white"  className="socialMedia-icon"/> </a>
             </div>
             <div class="nav-icons"> 
-              <FontAwesomeIcon icon= {faInstagram} color="white"  className="socialMedia-icon" />
+              <a href = 'https://www.instagram.com/kitchen_by_design/?igshid=YmMyMTA2M2Y%3D' target="_blank"> < FontAwesomeIcon icon= {faInstagram} color="white"  className="socialMedia-icon" /> </a>
             </div> 
             <div class="nav-icons"> 
-              <FontAwesomeIcon icon= {faWhatsapp} color="white"   className="socialMedia-icon"/>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+              <a href="https://wa.me/16017887740" target="_blank"><FontAwesomeIcon icon= {faWhatsapp} color="white"   className="socialMedia-icon"/></a>
             </div> 
           </div>
         {/* <a href = "#"><button class ="button"> (601) 620 - 4077 </button></a>   */}

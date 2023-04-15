@@ -39,8 +39,8 @@ const BottomBar = () => {
                 <p class="informationTitle"> Contact </p>
             </div>
             <div class = "informationContent ">
-                <p >  Mail : (601) 620 - 4077 <br/> 
-                        // companie email // 
+                <p >  Tel: (601) 620 - 4077 <br/> 
+                        kitchenbydesignII@gmail.com
                 </p>
             </div>
         </div>
