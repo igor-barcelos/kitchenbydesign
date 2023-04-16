@@ -1,7 +1,7 @@
 import './ContactForm.css';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import { useHistory } from 'react-router-dom';
 const ContactForm = () => {
 
 const form = useRef();
@@ -16,6 +16,7 @@ const sendEmail = (e) => {
             '1UfOFpjbIGpy3cUWV')
         .then((result) =>{
             console.log(result.text);
+            window.location.href = './success';
         }, (error) => {
             console.log(error.text);
         });

@@ -28,7 +28,7 @@ const closeMobileMenu = () => {
         <div class="nav-links"> 
                 <ul>
                 <li > <Link  to='/' onClick={closeMobileMenu} > Home </Link > </li> 
-                <li > <Link  to='about' onClick={closeMobileMenu} > About </Link > </li>
+                <li > <Link  to='/about' onClick={closeMobileMenu} > About </Link > </li>
                 <li > <Link  to='/products' onClick={closeMobileMenu}> Products </Link > </li>
                 <li > <Link  to='/contact' onClick={closeMobileMenu}> Contact </Link > </li>
                 <li > <Link  to='#' onClick={closeMobileMenu}> Gallery </Link > </li>

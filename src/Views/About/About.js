@@ -1,13 +1,27 @@
 import BottomBar from "../../Components/BottomBar/BottomBar"
-import image_1 from '../../Images/Components/ImageSlider/3.jpg';
+import { useEffect } from "react";
 import WhatsAppButton from '../../Components/WhatsAppButton/WhatsAppButton';
 import ImageSlider from '../../Components/ImageSlider/ImageSlider';
 import './About.css'
 const About = () => {
+
+useEffect(() => {
+    const navbarHeight = document.querySelector('.navbar').offsetHeight;
+    const aboutSection = document.getElementById('about');
+    const aboutSectionTop = aboutSection.offsetTop - navbarHeight;
+    
+    window.scrollTo({
+        top: aboutSectionTop,
+        behavior: 'smooth'
+    });
+    }, []);
+
+
     return(
         <div class ='about-wrapper'>
             <ImageSlider/>
-            <div class ='about-container'>
+            <section id="about">  
+                <div class ='about-container' >
                 <h1> About Us </h1>
                 <div> 
                     <h2> Businnes Hours</h2>
@@ -34,6 +48,8 @@ const About = () => {
                         </p>                 
                 </div> 
             </div>
+            </section>
+            
             <WhatsAppButton/> 
             <BottomBar/>
         </div> 
