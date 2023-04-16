@@ -9,32 +9,32 @@ const Products = () => {
         <div class='product-wrapper'> 
             <div >
                 <h1> 
-                    LEARN ABOUT OUR PRODUCTS
+                    Our Stones
                 </h1>
             </div> 
              <div class ="products-container">
                 <div class = 'product-container'>
                     <img src={image_1} /> 
                     <div class = "product-name"> 
-                        <a href='#'> <p> GRANITE</p> </a>
+                         <p> GRANITE</p> 
                     </div>
                 </div >
                 <div class = 'product-container'>
                     <img src={image_2} /> 
                     <div class = "product-name"> 
-                        <a href='#'> <p> MARBLE</p> </a>
+                         <p> MARBLE</p> 
                     </div>
                 </div > 
                 <div class = 'product-container'>
                     <img src={image_3} /> 
                     <div class = "product-name"> 
-                    <a href='#'> <p> GRANITE</p> </a>
+                     <p> GRANITE</p> 
                     </div>
                 </div> 
                 <div class = 'product-container'>
                     <img src={image_4} /> 
                     <div class = "product-name"> 
-                    <a href='#'> <p> QUARTZITE</p></a>
+                     <p> QUARTZITE</p>
                     </div>
                 </div>       
             </div>

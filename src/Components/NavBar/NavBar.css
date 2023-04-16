@@ -6,9 +6,7 @@
     font-style: normal;
   }
 
-html{
-    scroll-behavior: smooth;;
-  }
+
 .navbar{
     display: flex;
     position: fixed;
@@ -24,17 +22,9 @@ html{
 }
 
 .nav-links{
+    display: flex;
     position: absolute;
-    left: 35%;}
-
-.navbar a{
-    color: black;
-
-}
-
-.navbar .logo{
-    font-size: 2em;
-    font-weight: bold;
+    left: 35%;
 }
 
    
@@ -66,50 +56,19 @@ color: orange
 .navbar .menu-hamburger{
     display: none;
     position: absolute;
-    top: 35px;
     right: 50px;
-    width: 35px;    
+    font-size: 20px;
+ 
 }
 
 .logo-img{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    width: 250px;
+    width: 200px;
     height: 64px;
     margin-left: 0.5em;
     
 }
-.button
-{ 
-    position: absolute;
-    top : 25px;
-    right: 20px;
-    overflow: hidden; 
-    font-family: 'Arial';
-    font-size: 20px;
-    color: black;
-    background: orange;
-    cursor: pointer;
-    text-transform: uppercase;
-    outline: none;
-    transition: all 0.3s;
-    border-radius: 4rem;
-    font-weight:bold;
-}
-
-.button:after{
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transition: all 0.3s;
-    box-sizing: border-box;
-}
-
-.button:hover{
-    background-color:orange;
-    color:black;
-    transform: scale(1.1)
-  }
 
 .nav-icons-container{
     display: flex;
@@ -133,28 +92,61 @@ color: orange
 
 .navbar{
     padding: 0;
-}
-.nav-links{
-    display: none;
-    
-}
-.nav-icons{
-    display: none;
     
 }
 
 .navbar .menu-hamburger{
-    display: block;
-    position: absolute;
-    background-color: white;
-    right: 0;
-    margin-right: 20px;
+display: flex;
+align-items: "center";
+background-color: black;
+border-radius: 20%;
+
+}
+.nav-links{
+ top: 0;
+ left: 0;
+ position: absolute;
+ width: 100%;
+ height: 100vh;
+ background-color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: -100%;
+
+}
+
+.nav-links.mobile-menu{
+    margin-left: 0;
+
+}
+
+.nav-links ul{
+    display: 'flex';
+    flex-direction: column;
+}
+
+.navbar .nav-links ul li a{
+    color: black;
+    font-weight: lighter;
+    font-family: 'Made Tommy';
+}
+
+
+.navbar .nav-links ul li {
+    margin: 25px 0;
+    font-size: 1.2em;
+}
+
+.nav-icons{
+    display: none;
+    
 }
 
 .logo-img{
     width: 100px;
     height: 50px;
 }
-    
+
 }
 

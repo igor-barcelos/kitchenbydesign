@@ -25,7 +25,7 @@
 .product-wrapper h1{
     font-size: 30px;  
     font-family: 'Made Tommy';
-    font-weight: lighter;
+    font-weight: bold;
  }
 
 
@@ -75,27 +75,41 @@
    text-decoration: none;
 }
 
- .product-name a :hover{
+ /* .product-name a :hover{
    background-color:orange;
    color:black;
    transform: scale(1.1)
- }
+ } */
 
 
  @media screen and (max-width :900px) {
-   .products-container{
-      display: block;
-   }    
 
-   .product-wrapper h1{
-      font-size: 21px;
-    }
-    
+.products-container{
+   display: block;
+}    
 
-   .product-wrapper p{
-      font-size: 15px;
-    }
-    
+.product-container{
+   height: fit-content;
+   margin-bottom: 2rem;
+  }
+
+
+.product-wrapper h1{
+   font-size: 21px;
+}
+   
+
+.product-wrapper p{
+   font-size: 15px;
+}
+
+.product-wrapper .products-container img {
+   height: 150px;
+   width: 300px;
+}
+
+
+   
 
 
 }

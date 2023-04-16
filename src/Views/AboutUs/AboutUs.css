@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Made Tommy';
+  src: url('../../Fonts/made_tommy/MADE TOMMY Regular_PERSONAL USE.otf') format('otf');
+       /* url('./Fonts/made-tommy-regular-webfont.woff') format('woff'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.aboutUs-container{
+  display: flex;
+  flex-direction: column;
+  }
+
+.aboutUs-title h1{
+    font-size: 30px;  
+    font-family: 'Made Tommy';
+    font-weight: bold;
+}
+
+
+
+.aboutUs-content p{
+    font-size: 16px;  
+    font-family: 'Made Tommy';
+    font-weight: lighter;
+    text-align: justify;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    line-height: 145%;
+}
+
+.aboutUs-information {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutUs-information p {
+  text-align: center;
+  font-family: 'Made Tommy';
+  font-weight: lighter;
+}
+
+.aboutUs-information h2 {
+  text-align: center;
+  font-family: 'Made Tommy';
+  font-weight: lighter;
+}
+
+
+.aboutUs-information ul{
+  text-align: 'center';
+
+
+}
+.aboutUs-information li {
+  font-family: 'Made Tommy';
+  font-weight: lighter;
+  list-style-type: none;
+  text-align: 'center';
+}
+
+
+  @media screen and (max-width :900px) {
+    .contactUs_button{
+       display: none;
+    }
+  
+    .aboutUs-title h1{
+      font-size: 21px;
+    }
+  
+    .aboutUs-content p{
+      font-size: 16px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    
+  }
+    

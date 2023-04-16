@@ -7,22 +7,14 @@
   }
   
   .products-wrapper{
-    display: inline-block;
-    direction: column;
-    position: relative;
-    width: 100%;
-    max-height: fit-content;
-  }
-
-    
-  .productsView-container{
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .productsView-container h1{
     font-size: 30px;  
     font-family: 'Made Tommy';
-    font-weight: lighter;
+    font-weight: bold;
   }
 
   .productsView-container p{
@@ -81,4 +73,29 @@
   color: white;
   font-family: 'Made Tommy';
   font-size: 16px;
+}
+
+@media screen and (max-width :900px) {
+
+  .top-text-div h2{
+    font-size: 16px;
+  }
+
+  .top-text-div p{
+    font-size: 14px;
+  }
+
+  .top-text-div{
+    padding-top: 50%;
+  }
+  .productsView-container h1{
+    font-size: 21px;
+  }
+
+  .productsView-container p{
+    font-size: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
 }
