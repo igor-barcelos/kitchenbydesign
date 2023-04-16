@@ -17,7 +17,7 @@ const AboutUs  = () => {
                 Not only is our marble stunningly beautiful, but it's also durable and long-lasting. With proper care, it can withstand years of wear and tear while maintaining its natural shine and elegance.
                 Our team of experts is dedicated to helping you find the perfect marble products for your specific needs. Whether you're looking to create a statement piece with a unique pattern or want to keep it classic with a timeless white marble, we have the selection and expertise to make your vision a reality.
             </p>
-            <div class = "aboutUs-information" style={{display:'inline-block', textAlign:'center', width:'100%', textJustify:'left'}}>
+            {/* <div class = "aboutUs-information" style={{display:'inline-block', textAlign:'center', width:'100%', textJustify:'left'}}>
                 <div style={{display:'flex', justifyContent:'space-between'}}> 
                     <div> 
                     <h2>  Business Hours </h2>
@@ -69,7 +69,7 @@ const AboutUs  = () => {
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> */}
            </div>  
            <WhatsAppButton/> 
            <BottomBar/>
