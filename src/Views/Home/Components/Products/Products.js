@@ -9,7 +9,7 @@ const Products = () => {
         <div class='product-wrapper'> 
             <div >
                 <h1> 
-                    Our Stones
+                    Our Products
                 </h1>
             </div> 
              <div class ="products-container">

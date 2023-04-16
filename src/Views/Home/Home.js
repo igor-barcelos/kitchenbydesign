@@ -2,15 +2,15 @@ import './Home.css'
 import ImageSlider from '../../Components/ImageSlider/ImageSlider';
 import WhatsAppButton from '../../Components/WhatsAppButton/WhatsAppButton';
 import Products from './Components/Products/Products'
-import AboutUs from '../AboutUs/AboutUs';
+import AboutUs from './Components/AboutUs/AboutUs';
 import BottomBar from '../../Components/BottomBar/BottomBar';
 const Home = () => {
     return(
         <div class = "container" >
                 <ImageSlider/> 
-                {/* <AboutUs/> 
-                <Products/> */}
-                {/* <BottomBar/> */}
+                <AboutUs/> 
+                <Products/>
+                <BottomBar/>
                 <WhatsAppButton/> 
             {/* <div class ="products_div">
                 <div class = "products_content">  

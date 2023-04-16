@@ -1,14 +1,14 @@
-import ImageSlider from '../../Components/ImageSlider/ImageSlider';
-import WhatsAppButton from '../../Components/WhatsAppButton/WhatsAppButton';
-import BottomBar from "../../Components/BottomBar/BottomBar"
+import ImageSlider from '../../../../Components/ImageSlider/ImageSlider';
+import WhatsAppButton from '../../../../Components/WhatsAppButton/WhatsAppButton';
+import BottomBar from "../../../../Components/BottomBar/BottomBar"
 import './AboutUs.css'
 const AboutUs  = () => {
     return(
         <div class = "aboutUs-container">
-             <ImageSlider/>
+             {/* <ImageSlider/> */}
            <div class = "aboutUs-title"> 
                 <h1 id='about'> 
-                    About Us
+                    Who we are ?
                 </h1>
            </div>
            <div class = "aboutUs-content">
@@ -71,8 +71,8 @@ const AboutUs  = () => {
                 </div>
             </div> */}
            </div>  
-           <WhatsAppButton/> 
-           <BottomBar/>
+           {/* <WhatsAppButton/> 
+           <BottomBar/> */}
         </div>
     )
 }
