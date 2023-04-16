@@ -10,7 +10,7 @@ const Home = () => {
                 <ImageSlider/> 
                 {/* <AboutUs/> 
                 <Products/> */}
-                <BottomBar/>
+                {/* <BottomBar/> */}
                 <WhatsAppButton/> 
             {/* <div class ="products_div">
                 <div class = "products_content">  
