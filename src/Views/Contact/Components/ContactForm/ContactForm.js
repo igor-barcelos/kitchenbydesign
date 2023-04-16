@@ -29,10 +29,10 @@ return(
             <form ref={form} onSubmit={sendEmail}>
                 <div> 
                     {/* <label>Name</label> */}
-                    <input type="text" name="user_name" placeholder ='Name' />
-                    <input type="text" name="user_Lastname" placeholder ='Last Name' />
+                    <input type="text" name="user_name" placeholder ='Name' required />
+                    <input type="text" name="user_Lastname" placeholder ='Last Name' required />
                     {/* <label >Email</label> */}
-                    <input style={{marginRight:'0'}} type="text" name="user_email"  placeholder ='Email'/>
+                    <input style={{marginRight:'0'}} type="text" name="user_email"  placeholder ='Email' required/>
                 </div>
                 
                 <div style={{display:'flex', alignItems:'center'}}>

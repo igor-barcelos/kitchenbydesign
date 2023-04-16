@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Made Tommy';
+    src: url('../../Fonts/made_tommy/MADE TOMMY Regular_PERSONAL USE.otf') format('otf');
+         /* url('./Fonts/made-tommy-regular-webfont.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .about-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-container h1{
+    font-size: 30px;  
+    font-family: 'Made Tommy';
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+  .about-container h2{
+    font-size: 21px;  
+    font-family: 'Made Tommy';
+    font-weight: lighter;
+    line-height: 1.5;
+    text-decoration: underline;
+  }
+
+  .about-container p{
+    font-size: 16px;  
+    font-family: 'Made Tommy';
+    font-weight: lighter;
+    line-height: 1.5;
+  }
+
+
+@media screen and (max-width :900px) {
+
+}
