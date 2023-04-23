@@ -10,7 +10,7 @@
 .contact-wrapper{
     display: flex;
     direction: row;
-    margin-top: 80px;
+    margin-top: 70px;
     height: fit-content;
     background-color: black;
 }

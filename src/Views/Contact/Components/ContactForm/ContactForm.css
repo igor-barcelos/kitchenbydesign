@@ -80,8 +80,9 @@ input[type=text], select, textarea {
 
 
   .submit_button{
-  
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-family: 'Made Tommy';
     font-size: 14px;
@@ -94,7 +95,10 @@ input[type=text], select, textarea {
   
 @media screen and (max-width :900px) {
 
-
+  .submit_button {
+    text-align: center;
+  }
+  
   .form-container h1{
     font-size: 20px;
   }

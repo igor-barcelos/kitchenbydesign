@@ -65,7 +65,7 @@ color: orange
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     width: 200px;
-    height: 64px;
+    height: 55px;
     margin-left: 0.5em;
     
 }
@@ -97,6 +97,9 @@ color: orange
 
 .navbar .menu-hamburger{
 display: flex;
+position: absolute;
+right: 0;
+margin-right: 0.5rem;
 align-items: "center";
 background-color: black;
 

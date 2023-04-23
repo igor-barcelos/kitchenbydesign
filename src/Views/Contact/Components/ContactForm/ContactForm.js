@@ -40,7 +40,7 @@ return(
                     {/* <label>Message</label> */}
                     <textarea name="message" style={{width:'100%'}} placeholder ='Message'/>
                 </div>
-                <div>
+                <div style={{display :'flex', justifyContent:'center'}}>
                       <input type="submit" value="Send" className='submit_button'/> 
                 </div> 
                
